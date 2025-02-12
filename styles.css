@@ -37,8 +37,8 @@ body {
 }
 .el1{ /* компания */
 	display: flex;
-	height: 100%;
-	width: 100%;
+	height: 100vh;
+	width: 100vw;
 	justify-content: center;
 	align-items: center;
   	animation: showBlock 0.5s linear forwards;
@@ -106,11 +106,11 @@ body {
 }
 
 .cbox2-box-blueborder-text{
+	display: flex;
 	font-size: 6vw;
 	width: fit-content;
 	height: fit-content;
 	color: 	white;
-	margin-top: 5%;
 }
 
 .character-card{
@@ -270,20 +270,13 @@ body {
 	font-size: 3.5vw;
 }
 .p3b2-quantity{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: 	white;
-	height: 30%;
-	padding-top: 15%;
+	color: white;
 	font-size: 9vw;
-
+	text-align: center;
 	background-color: #0374DF;
 	border-radius: 20px;
-	width: fit-content;
-	height: fit-content;
 	padding-inline: 10%;
-	padding-block: 1%;
+	padding-top: 4%;
 }
 .p3b2-designs-per{
 	display: flex;
